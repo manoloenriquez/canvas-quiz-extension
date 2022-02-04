@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Canvas Quiz Extension",
-  "description": "This extension will stick list of questions box on screen",
+  "description": "This extension aims to provide a better user experience while taking quizzes on canvas by making the list of questions and time left accessible even when scrolling through the test.",
   "version": "1.0",
   "browser_action": {
     "default_icon": "icon.png",

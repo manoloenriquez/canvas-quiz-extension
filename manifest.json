@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Canvas Quiz Extension",
+  "description": "This extension will stick list of questions box on screen",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab", "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://*.instructure.com/courses/*/quizzes/*/take"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
